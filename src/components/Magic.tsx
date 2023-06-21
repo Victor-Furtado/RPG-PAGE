@@ -21,8 +21,17 @@ import {
   GiHealing,
   GiTransform,
 } from "react-icons/gi";
-import { OpenAlquimiaModal } from "./modals";
-import { OpenAdivinhacaoModal } from "./modals/Adivinhação";
+import {
+  OpenAdivinhacaoModal,
+  OpenAlquimiaModal,
+  OpenElementarismoModal,
+  OpenEncantamentoModal,
+  OpenFeiticoModal,
+  OpenLevitacaoModal,
+  OpenNecromanciaModal,
+  OpenTeurgiaModal,
+  OpenTransmutacaoModal,
+} from "./modals";
 
 const useStyles = createStyles((theme) => ({
   headers: {
@@ -336,36 +345,43 @@ const magicSkills = [
     icon: GiFireSpellCast,
     title: "Elementalismo",
     description: "O estudo e controle das forças elementais da natureza",
+    openModal: OpenElementarismoModal,
   },
   {
     icon: GiMagicPalm,
     title: "Encantamento",
     description: "O estudo da criação de talismãs e bugigangas",
+    openModal: OpenEncantamentoModal,
   },
   {
     icon: GiHiveMind,
     title: "Feitiços",
     description:
       "O estudo da ação das forças mágicas sobre a vontade e as percepções mundanas",
+    openModal: OpenFeiticoModal,
   },
   {
     icon: GiQuill,
     title: "Levitação",
     description: "A ciência do controle do movimento à distância",
+    openModal: OpenLevitacaoModal,
   },
   {
     icon: GiHalfDead,
     title: "Necromancia",
     description: "O estudo da morte e dos mortos",
+    openModal: OpenNecromanciaModal,
   },
   {
     icon: GiHealing,
     title: "Teurgia",
     description: "O estudo da cura através da magia",
+    openModal: OpenTeurgiaModal,
   },
   {
     icon: GiTransform,
     title: "Transmutação",
     description: "O estudo da alteração dos corpos (vivos ou não)",
+    openModal: OpenTransmutacaoModal,
   },
 ];

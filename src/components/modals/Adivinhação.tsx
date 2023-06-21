@@ -50,21 +50,21 @@ export const OpenAdivinhacaoModal = () =>
           >
             <thead style={{ backgroundColor: "black" }}>
               <tr>
-                <th style={{ width: 84 }}>Magia</th>
-                <th style={{ width: 16 }}>Mod</th>
-                <th style={{ width: 42 }}>Conj</th>
-                <th style={{ width: 64 }}>Duração</th>
-                <th style={{ width: 84 }}>Modificadores</th>
-                <th style={{ width: 256 }}>Efeito</th>
+                <th>Magia</th>
+                <th>Mod</th>
+                <th>Conj</th>
+                <th>Duração</th>
+                <th>Modificadores</th>
+                <th>Efeito</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Clarividência</td>
-                <td>0</td>
-                <td>5 minutos</td>
-                <td>Concentração - Fixa</td>
-                <td>Familiaridade</td>
+                <td style={{ width: 84 }}>Clarividência</td>
+                <td style={{ width: 16 }}>0</td>
+                <td style={{ width: 42 }}>5 minutos</td>
+                <td style={{ width: 64 }}>Concentração - Fixa</td>
+                <td style={{ width: 256 }}>Familiaridade</td>
                 <td>
                   Este é o efeito que permite ao mago saber o que está
                   acontecendo à distância. Permite a obtenção de informações
@@ -76,11 +76,11 @@ export const OpenAdivinhacaoModal = () =>
                 </td>
               </tr>
               <tr>
-                <td>Retrocognição</td>
-                <td>-5</td>
-                <td>30 minutos</td>
-                <td>Concentração - Fixa</td>
-                <td>Familiaridade</td>
+                <td style={{ width: 84 }}>Retrocognição</td>
+                <td style={{ width: 16 }}>-5</td>
+                <td style={{ width: 42 }}>30 minutos</td>
+                <td style={{ width: 64 }}>Concentração - Fixa</td>
+                <td style={{ width: 256 }}>Familiaridade</td>
                 <td>
                   Este efeito é como a clarividência, mas para coisas que
                   aconteceram no passado. Alguns eventos deixam uma marca mais
@@ -99,11 +99,11 @@ export const OpenAdivinhacaoModal = () =>
                 </td>
               </tr>
               <tr>
-                <td>Precognição</td>
-                <td>-7</td>
-                <td>5 minutos</td>
-                <td>Concentração - Fixa</td>
-                <td>Familiaridade</td>
+                <td style={{ width: 84 }}>Precognição</td>
+                <td style={{ width: 16 }}>-7</td>
+                <td style={{ width: 42 }}>5 minutos</td>
+                <td style={{ width: 64 }}>Concentração - Fixa</td>
+                <td style={{ width: 256 }}>Familiaridade</td>
                 <td>
                   Este efeito é como a clarividência, mas para coisas que ainda
                   não são. Basicamente, qualquer coisa que ainda não aconteceu
@@ -120,11 +120,11 @@ export const OpenAdivinhacaoModal = () =>
                 </td>
               </tr>
               <tr>
-                <td>Telepatia</td>
-                <td>-8</td>
-                <td>1 minuto</td>
-                <td>Concentração - Fixa</td>
-                <td>Familiaridade</td>
+                <td style={{ width: 84 }}>Telepatia</td>
+                <td style={{ width: 16 }}>-8</td>
+                <td style={{ width: 42 }}>1 minuto</td>
+                <td style={{ width: 64 }}>Concentração - Fixa</td>
+                <td style={{ width: 256 }}>Familiaridade</td>
                 <td>
                   Esta é a capacidade de reunir os pensamentos e sentimentos de
                   outras pessoas em sua própria mente. Com esta habilidade, o
@@ -136,11 +136,11 @@ export const OpenAdivinhacaoModal = () =>
                 </td>
               </tr>
               <tr>
-                <td>Intuição</td>
-                <td>-12</td>
-                <td>Instantâneo</td>
-                <td>Instantânea - Fixa</td>
-                <td>Familiaridade</td>
+                <td style={{ width: 84 }}>Intuição</td>
+                <td style={{ width: 16 }}>-12</td>
+                <td style={{ width: 42 }}>Instantâneo</td>
+                <td style={{ width: 64 }}>Instantânea - Fixa</td>
+                <td style={{ width: 256 }}>Familiaridade</td>
                 <td>
                   Este efeito dá ao mago uma intuição, uma dica, uma ajuda nas
                   horas difíceis e até nas fáceis. Com ela, ele pode saber o que
@@ -178,11 +178,11 @@ export const OpenAdivinhacaoModal = () =>
                 </td>
               </tr>
               <tr>
-                <td>Oráculo</td>
-                <td>-15/-20</td>
-                <td>9 horas (1 dia)</td>
-                <td>Concentração - Fixa</td>
-                <td>--</td>
+                <td style={{ width: 84 }}>Oráculo</td>
+                <td style={{ width: 16 }}>-15/-20</td>
+                <td style={{ width: 42 }}>9 horas (1 dia)</td>
+                <td style={{ width: 64 }}>Concentração - Fixa</td>
+                <td style={{ width: 256 }}>--</td>
                 <td>
                   Este efeito permite ao mago saber a resposta para qualquer
                   pergunta. O mago tem uma penalidade adicional de 5 pontos se a
