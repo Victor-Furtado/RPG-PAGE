@@ -5,7 +5,7 @@ export const OpenLevitacaoModal = () =>
   modals.open({
     title: "LEVITAÇÃO",
     children: (
-      <>
+      <ScrollArea type="never">
         <Stack>
           <Text>
             Esta é a habilidade que permite que bruxas e bruxos subam em
@@ -46,11 +46,11 @@ export const OpenLevitacaoModal = () =>
                   Este efeito permite ao mago controlar o movimento de um objeto
                   à distância. Depende do volume, não do peso, e objetos maiores
                   incorrem em penalidades maiores. O volume controlado é igual a
-                  125 decímetros cúbicos por margem de sucesso (50 x 50 x 50 cm
-                  por sucesso. 8 é a penalidade para levitar uma pessoa), até 10
-                  sucessos, quando o move 1 hex de matéria. Depois disso, cada
-                  sucesso adiciona 1 hex de volume movido. A velocidade com que
-                  a matéria é movida é igual ao dobro da margem de sucessos do
+                  125 litros por margem de sucesso (50 x 50 x 50 cm por sucesso.
+                  8 é a penalidade para levitar uma pessoa), até 10 sucessos,
+                  quando o move 1 hex de matéria. Depois disso, cada sucesso
+                  adiciona 1 hex de volume movido. A velocidade com que a
+                  matéria é movida é igual ao dobro da margem de sucessos do
                   teste modificado. Para 0 sucessos, a velocidade é de 1 m/s.
                   Movimentos complexos requerem penalidades adicionais (como
                   fazer uma caneta escrever em um pedaço de papel) e vários
@@ -113,6 +113,6 @@ export const OpenLevitacaoModal = () =>
             </tbody>
           </Table>
         </ScrollArea>
-      </>
+      </ScrollArea>
     ),
   });

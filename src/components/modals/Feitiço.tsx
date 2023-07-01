@@ -5,7 +5,7 @@ export const OpenFeiticoModal = () =>
   modals.open({
     title: "FEITIÇO",
     children: (
-      <>
+      <ScrollArea type="never">
         <Stack>
           <Text>
             Feitiços são o estudo dos efeitos que uma poderosa força de vontade
@@ -220,6 +220,6 @@ export const OpenFeiticoModal = () =>
             </tbody>
           </Table>
         </ScrollArea>
-      </>
+      </ScrollArea>
     ),
   });

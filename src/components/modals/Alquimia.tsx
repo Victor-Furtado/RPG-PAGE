@@ -5,7 +5,7 @@ export const OpenAlquimiaModal = () =>
   modals.open({
     title: "ALQUIMIA",
     children: (
-      <>
+      <ScrollArea type="never">
         <Stack>
           <Text>
             A alquimia é a arte de transformar as coisas. Ao contrário da
@@ -295,6 +295,6 @@ export const OpenAlquimiaModal = () =>
             </tbody>
           </Table>
         </ScrollArea>
-      </>
+      </ScrollArea>
     ),
   });

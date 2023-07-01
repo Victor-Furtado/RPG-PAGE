@@ -5,7 +5,7 @@ export const OpenTransmutacaoModal = () =>
   modals.open({
     title: "TRANSMUTAÇÃO",
     children: (
-      <>
+      <ScrollArea type="never">
         <Stack>
           <Text>
             Esta é a capacidade de transformar uma coisa em outra. É a conquista
@@ -174,6 +174,6 @@ export const OpenTransmutacaoModal = () =>
             </tbody>
           </Table>
         </ScrollArea>
-      </>
+      </ScrollArea>
     ),
   });

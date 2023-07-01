@@ -5,7 +5,7 @@ export const OpenEncantamentoModal = () =>
   modals.open({
     title: "ENCANTAMENTO",
     children: (
-      <>
+      <ScrollArea type="never">
         <Stack>
           <Text>
             A arte do encantamento abrange a criação de talismãs mágicos e itens
@@ -116,6 +116,6 @@ export const OpenEncantamentoModal = () =>
             </tbody>
           </Table>
         </ScrollArea>
-      </>
+      </ScrollArea>
     ),
   });

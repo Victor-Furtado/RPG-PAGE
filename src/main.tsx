@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
         modalProps={{
           centered: true,
           withCloseButton: true,
-          fullScreen: true,
+          size: "xl",
         }}
       >
         <App />

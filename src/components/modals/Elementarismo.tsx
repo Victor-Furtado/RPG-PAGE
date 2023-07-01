@@ -5,7 +5,7 @@ export const OpenElementarismoModal = () =>
   modals.open({
     title: "ELEMENTARISMO",
     children: (
-      <>
+      <ScrollArea type="never">
         <Stack>
           <Text>
             Esta é a ciência que permite ao mago controlar as forças elementais
@@ -265,6 +265,6 @@ export const OpenElementarismoModal = () =>
             </tr>
           </tbody>
         </Table>
-      </>
+      </ScrollArea>
     ),
   });

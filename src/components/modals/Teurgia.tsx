@@ -5,7 +5,7 @@ export const OpenTeurgiaModal = () =>
   modals.open({
     title: "TEURGIA",
     children: (
-      <>
+      <ScrollArea type="never">
         <Stack>
           <Text>
             Esta é a habilidade de um mago de causar ou curar aflições
@@ -151,6 +151,6 @@ export const OpenTeurgiaModal = () =>
             </tbody>
           </Table>
         </ScrollArea>
-      </>
+      </ScrollArea>
     ),
   });

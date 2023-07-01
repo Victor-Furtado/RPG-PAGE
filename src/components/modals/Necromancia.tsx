@@ -5,7 +5,7 @@ export const OpenNecromanciaModal = () =>
   modals.open({
     title: "NECROMANCIA",
     children: (
-      <>
+      <ScrollArea type="never">
         <Stack>
           <Text>
             Necromancia é o estudo da morte e dos mortos. Com ele, um mago pode
@@ -221,6 +221,6 @@ export const OpenNecromanciaModal = () =>
             </tbody>
           </Table>
         </ScrollArea>
-      </>
+      </ScrollArea>
     ),
   });

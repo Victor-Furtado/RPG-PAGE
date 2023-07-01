@@ -5,7 +5,7 @@ export const OpenAdivinhacaoModal = () =>
   modals.open({
     title: "ADIVINHAÇÃO",
     children: (
-      <>
+      <ScrollArea type="never">
         <Stack>
           <Text>
             A adivinhação é a arte de conhecer o divino e um dos ramos mais
@@ -200,6 +200,6 @@ export const OpenAdivinhacaoModal = () =>
             </tbody>
           </Table>
         </ScrollArea>
-      </>
+      </ScrollArea>
     ),
   });
